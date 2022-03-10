@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+    
+}
+
+.navbar .logo img{
+    width: 30px;
+    border: 2px solid var(--offwhite);
+    border-radius: 50%;
+}
+
+.navbar .right{
+    display: flex;
+    align-items: center;
+    color: var(--offwhite);
+}
+
+.navbar ul{
+ display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-right: 15px;
+}

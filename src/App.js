@@ -1,9 +1,12 @@
 import './App.css';
+import Cover from './components/Cover';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-    <h1>HELLO WORLD!</h1> 
+      <Navbar />
+      <Cover />
     </div>
   );
 }
