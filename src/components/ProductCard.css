@@ -4,6 +4,7 @@
     margin: 15px;
     padding: 10px;
     text-align: center;
+    background-color: var(--secclr);
 }
 
 .productcard img{

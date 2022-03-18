@@ -1,5 +1,10 @@
 .products h1{
     color: var(--acentclr);
+    text-align: center;
+}
+
+.products p{
+    text-align: center;
 }
 
 .products .showroom{

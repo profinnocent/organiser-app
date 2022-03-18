@@ -8,8 +8,26 @@
     color: var(--acentclr);
 } 
 
-.cover h1,h3,p{
+.cover h1, p{
     color: var(--offwhite);
+}
+
+.cover .content a{
+    color: var(--offwhite);
+    background-color: var(--secclr);
+    border-radius: 5px;
+    border: 1px solid var(--acentclr);
+    padding: 5px 25px;
+    transition: 0.5s;
+}
+
+.cover .content a:hover{
+    transform: scaleX(1.2);
+}
+
+.cover .content i{
+    margin-left: 10px;
+    font-size: 14px;
 }
 
 .cover .content{
