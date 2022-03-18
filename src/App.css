@@ -5,11 +5,23 @@
   --acentclr:#FFD369;
 }
 
-
-
-.App {
-  text-align: center;
- 
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100vw; */
+  /* height: ; */
+  overflow: hidden;
 }
+
+@media (max-width:576px){
+  .App{
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+
 
 

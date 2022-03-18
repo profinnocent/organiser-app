@@ -1,0 +1,19 @@
+.productcard{
+    border: 2px solid var(--acentclr);
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.productcard img{
+    width: 70px;
+}
+
+.productcard button{
+    background-color: var(--acentclr);
+    padding: 5px 20px;
+    border-radius: 25px;
+    color: var(--priclr);
+    font-weight: bolder;
+}

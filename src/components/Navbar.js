@@ -1,7 +1,9 @@
 import React from 'react'
 import logo from '../assets/github.png'
+import hanburger from '../assets/hamburger.png';
 import './Navbar.css'
 
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -10,13 +12,13 @@ const Navbar = () => {
                 <img src={logo} alt="logo" />
             </div>
             <div className="right">
+                <img src={hanburger} alt="" />
                 <ul className="menu">
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Services</li>
-                    <li>Contact</li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/products">Products</Link></li>
+                    <li><Link to="/services">Services</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
-                <i className="fas fa-bars"></i>
             </div>
         </div>
     )

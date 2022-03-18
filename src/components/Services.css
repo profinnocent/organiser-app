@@ -1,0 +1,8 @@
+.services{
+    padding: 20px;
+    margin: 10px;
+}
+
+.services h1{
+    color: var(--acentclr);
+}

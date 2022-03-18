@@ -1,0 +1,15 @@
+.products h1{
+    color: var(--acentclr);
+}
+
+.products .showroom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+@media (max-width:576px){
+    .products .showroom{
+        grid-template-columns: 1fr 1fr;
+    }
+}
