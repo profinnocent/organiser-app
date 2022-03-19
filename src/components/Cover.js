@@ -1,5 +1,5 @@
 import React from 'react'
-import pixy from '../assets/teamwork1.svg'
+import pixy from '../assets/bking6.jpg'
 import {Link} from 'react-router-dom'
 import './Cover.css'
 

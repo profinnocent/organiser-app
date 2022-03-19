@@ -1,8 +1,25 @@
 .services{
+    width: 100%;
+
     padding: 20px;
     margin: 10px;
 }
 
+.services .hero{
+    position: relative;
+}
+
+.services .hero .pix img{
+width: 33.3%;
+height: 300px;
+}
+
+.services .hero .pix{
+   width: 100%;
+   display: flex;
+}
+
 .services h1{
     color: var(--acentclr);
+    background-color: aqua;
 }

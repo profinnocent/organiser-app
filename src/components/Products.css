@@ -15,6 +15,6 @@
 
 @media (max-width:576px){
     .products .showroom{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }

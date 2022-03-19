@@ -2,6 +2,7 @@
     display: flex;
     padding: auto 20px;
     width: 100%;
+    height: auto;
 }
 
 .cover h5{
@@ -13,16 +14,19 @@
 }
 
 .cover .content a{
-    color: var(--offwhite);
-    background-color: var(--secclr);
+    background-color: var(--acentclr);
+    color: var(--priclr);
+    font-weight: bold;
     border-radius: 5px;
     border: 1px solid var(--acentclr);
     padding: 5px 25px;
+    text-decoration: none;
     transition: 0.5s;
 }
 
 .cover .content a:hover{
     transform: scaleX(1.2);
+  
 }
 
 .cover .content i{
@@ -37,14 +41,19 @@
     justify-content: center;
     align-items: center;
     padding: 50px;
+    height: 70%;
 }
 
 .cover .pix{
     width: 60%;
+    height: 90%;
+    margin-right: 50px;
 }
 
 .cover .pix img{
     animation: float 3s infinite;
+    width:100%;
+    height: 100%;
 }
 
 @keyframes float {
@@ -52,7 +61,7 @@
         transform: translateY(0);
     }
     50%{
-        transform: translateY(20px);
+        transform: translateY(10px);
     }
     100%{
         transform: translateY(0);

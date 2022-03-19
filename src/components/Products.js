@@ -1,57 +1,73 @@
-import ProductCard from './ProductCard'
-import './Products.css'
+import ProductCard from "./ProductCard";
+import "./Products.css";
 
-import jburger from '../assets/burger1.png'
-import fruits from '../assets/apple.jpg'
-import orangej from '../assets/orange.png'
-import pearmesh from '../assets/pear.jpg'
+import burger11 from "../assets/burger11.jpg";
+import burger12 from "../assets/burger12.jpg";
+import burger13 from "../assets/burger13.jpg";
+import burger14 from "../assets/burger14.jpg";
+import burger17 from "../assets/burger17.jpg";
+import burger16 from "../assets/burger16.jpg";
 
 const Products = () => {
+  const burgers = [
+    {
+      src: burger11,
+      productname: "Jumbo Hanburger",
+      description: "with peppered fish and chicken mashup",
+      price: 2500,
+    },
+    {
+      src: burger12,
+      productname: "Maxi Hanburger",
+      description: "with peppered chicken only",
+      price: 2000,
+    },
+    {
+      src: burger13,
+      productname: "Mini Hanburger",
+      description: "with chips, chicken & onion",
+      price: 1500,
+    },
+    {
+      src: burger14,
+      productname: "Burger & Chips", 
+      description: "with fried chicken & chips",
+      price: 3000,
+    },
+    {
+      src: burger17,
+      productname: "King Burger",
+      description: "with meat steak for two",
+      price: 3500,
+    },
+    {
+      src: burger16,
+      productname: "Grand Burger",
+      description: "with assorted dressing for the family",
+      price: 4500,
+    },
+  ];
+
   return (
-    <div className='products'>
+    <div className="products">
       <h1>PRODUCTS</h1>
       <p>See our range of quality products</p>
       <div className="showroom">
+
+       { burgers.map((burger) => 
           <ProductCard 
-          src={jburger}
-          productname={"Jumbo Hanburger"} 
-          description={"with peppered fish and chicken mashup"}
-          price={"N2,500"}
+          key={Math.floor(Math.random()*100000)}
+          src={burger.src}
+          productname={burger.productname} 
+          description={burger.description}
+          price={burger.price}
           />
-          <ProductCard 
-          src={jburger}
-          productname={"Maxi Hanburger"} 
-          description={"with peppered chicken only"}
-          price={"N2,000"}
-          />
-          <ProductCard 
-          src={jburger}
-          productname={"Mini Hanburger"} 
-          description={"with peppered fish shrimps"}
-          price={"N1,500"}
-          />
-          <ProductCard           
-          src={fruits}
-           productname={"Fruit Mix"} 
-          description={"with cold chapman base"}
-          price={"N2,500"}
-          />
-          <ProductCard 
-          src={orangej}
-          productname={"Orange Juice"} 
-          description={"with cold lattea tea"}
-          price={"N1,500"}
-          />
-          <ProductCard
-          src={pearmesh}
-          productname={"Pear Grandeur"} 
-          description={"with pinacolada"}
-          price={"N2,000"}
-          />
-          
-      </div>
-    </div>
   )
 }
+        
+      </div>
+    </div>
+  );
+};
 
-export default Products
+export default Products;

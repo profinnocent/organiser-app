@@ -1,23 +1,19 @@
 import "./ProductCard.css";
 
-
-
-const ProductCard = ({src, productname, description, price}) => {
+const ProductCard = ({ src, productname, description, price }) => {
   return (
     <div className="productcard">
-      <div>
-      <img src={src} alt="Product Pix" />
+      <div className="burgerpix">
+        <img src={src} alt="Product Pix" />
       </div>
-      <div>
-      <h4>{productname}</h4>
-      <p>{description} </p>
-      <h2>{price}</h2>
-      <button>Buy Now</button>
+      <div className="burgerdetails">
+        <h3>{productname}</h3>
+        <p>{description} </p>
+        <h2>{price.toLocaleString()}</h2>
+        <button>Buy Now</button>
       </div>
     </div>
   );
 };
 
 export default ProductCard;
-
-

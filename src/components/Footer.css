@@ -1,5 +1,19 @@
+.footer{
+    margin-bottom: 20px;
+
+}
+
+
 .footer p{
     border: 1px solid white;
-    padding: 5px 40px 10px;
+    padding: 5px 40px 5px;
     border-radius: 25px;
+}
+
+
+@media (max-width:576px){
+    .footer{
+        margin-bottom: 0;
+    
+    }
 }

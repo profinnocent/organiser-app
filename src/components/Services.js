@@ -1,12 +1,27 @@
-import './Services.css'
+import "./Services.css";
+import heropix1 from "../assets/burger18.jpg";
+import heropix2 from "../assets/burger19.jpg";
+import heropix3 from "../assets/burger20.jpg";
+
 
 const Services = () => {
   return (
-    <div className='services'>
-      <h1>SERVICES</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dignissimos unde eum nisi consequatur ut sapiente in repudiandae deserunt libero? Distinctio explicabo, quisquam hic incidunt soluta quos cum qui, reiciendis dignissimos corrupti asperiores deserunt? Provident recusandae sunt, consequuntur quas, architecto quasi nesciunt excepturi fugiat ex magnam vero in nulla natus blanditiis? Ut id laboriosam neque iusto quibusdam dolore sapiente corrupti nobis? Dolore praesentium provident beatae illum dolorum in ab iusto fuga libero saepe doloremque adipisci optio inventore distinctio, assumenda, aspernatur, voluptatibus perferendis molestias! Quasi voluptatibus omnis odit dicta. Quaerat, sapiente maxime possimus molestiae laudantium illo eum ipsa cupiditate optio minima?</p>
-    </div>
-  )
-}
+    <div className="services">
+      <div className="hero">
+        <div className="pix">
+        <img src={heropix1} alt="" />
+        <img src={heropix2} alt="" />
+        <img src={heropix3} alt="" />
 
-export default Services
+        </div>
+        {/* <div className="herowords"> */}
+          <h1>OUR SERVICES</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button>SHOP</button>
+        {/* </div> */}
+      </div>
+    </div>
+  );
+};
+
+export default Services;
