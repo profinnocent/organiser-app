@@ -9,7 +9,6 @@
 
 .navbar .active {
     color: var(--acentclr);
-    
 }
 
 .navbar .logo {
@@ -84,6 +83,19 @@ a:hover {
     width: 90%;
   }
 
+    .navbar .right img {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar .right ul li {
+    display: inline-flex;
+    padding-top: 15px;
+  }
+
   .navbar .right:hover ul {
     display: block;
     position: absolute;
@@ -104,17 +116,7 @@ a:hover {
     margin-left: 0;
   }
 
-  .navbar .right img {
-    display: block;
-  }
-
-  .navbar ul {
-    /* visibility: hidden; */
-    display: none;
-  }
-
-  .navbar .right ul li {
-    display: inline-flex;
-    padding-top: 15px;
-  }
+  .navbar .active {
+    color: var(--acentclr);
+}
 }
