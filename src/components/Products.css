@@ -1,3 +1,7 @@
+.products{
+    height: auto;
+}
+
 .products h1{
     color: var(--acentclr);
     text-align: center;

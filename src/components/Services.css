@@ -8,6 +8,8 @@
 .services .hero .herocards img{
 width: 100%;
 height: 200px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
 }
 
 .services .hero .herocards{
@@ -20,7 +22,8 @@ align-items: center;
     width: 30%;
     text-align: center;
     margin: auto 20px;
-
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px rgba(255,255,255,0.5);
  }
 
 .services .hero h1,h3{
@@ -29,4 +32,15 @@ align-items: center;
 
 .services .hero h1,p{
     text-align: center;
+}
+
+@media (max-width:576px){
+    .services .hero .herocards{
+        flex-direction: column;
+     }
+
+     .services .hero .herocard{
+        width: 90%;
+        margin: 10px auto;
+     }
 }
