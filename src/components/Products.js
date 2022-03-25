@@ -24,13 +24,13 @@ const Products = () => {
     },
     {
       src: burger13,
-      productname: "Mini Hanburger",
+      productname: "Mini Hanburger & Chips",
       description: "with chips, chicken & onion",
       price: 1500,
     },
     {
       src: burger14,
-      productname: "Burger & Chips", 
+      productname: "Maxi Burger & Chips", 
       description: "with fried chicken & chips",
       price: 3000,
     },

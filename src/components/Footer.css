@@ -8,6 +8,8 @@
     border: 1px solid white;
     padding: 5px 40px 5px;
     border-radius: 25px;
+    color: var(--offwhite);
+    margin-top: 40px;
 }
 
 
