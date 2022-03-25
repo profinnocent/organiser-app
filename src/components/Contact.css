@@ -1,8 +1,26 @@
 .contact{
     padding: 20px;
     margin: 10px;
+    height: 70%;
+    width: 100%;
+    background-color: blueviolet;
 }
 
 .contact h1{
     color: var(--acentclr);
+}
+
+.contact .formset{
+    display: flex;
+    /* height: 100%; */
+    background-color: aqua;
+}
+
+.contact .formset .formpix img{
+    height: 50%;
+}
+
+.contact .formset .form .form-group{
+    display: flex;
+    flex-direction: column;
 }

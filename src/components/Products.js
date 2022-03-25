@@ -1,12 +1,12 @@
 import ProductCard from "./ProductCard";
 import "./Products.css";
 
-import burger11 from "../assets/burger11.jpg";
-import burger12 from "../assets/burger12.jpg";
-import burger13 from "../assets/burger13.jpg";
-import burger14 from "../assets/burger14.jpg";
-import burger17 from "../assets/burger17.jpg";
-import burger16 from "../assets/burger16.jpg";
+import burger11 from "../assets/burger11comp512.jpg";
+import burger12 from "../assets/burger12comp512.jpg";
+import burger13 from "../assets/burger13comp512.jpg";
+import burger14 from "../assets/burger14comp512.jpg";
+import burger17 from "../assets/burger17comp512.jpg";
+import burger16 from "../assets/burger16comp512.jpg";
 
 const Products = () => {
   const burgers = [

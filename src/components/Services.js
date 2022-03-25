@@ -1,7 +1,7 @@
 import "./Services.css";
-import heropix1 from "../assets/services2.jpg";
-import heropix2 from "../assets/burger18.jpg";
-import heropix3 from "../assets/services1.jpg";
+import heropix1 from "../assets/services2comp512.jpg";
+import heropix2 from "../assets/burger18comp512.jpg";
+import heropix3 from "../assets/services1comp512.jpg";
 
 const Services = () => {
  
