@@ -3,24 +3,97 @@
     margin: 10px;
     height: 70%;
     width: 100%;
-    background-color: blueviolet;
-}
-
-.contact h1{
-    color: var(--acentclr);
+    display: flex;
+    justify-content: center;
 }
 
 .contact .formset{
     display: flex;
-    /* height: 100%; */
-    background-color: aqua;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-right: 30px;
 }
 
-.contact .formset .formpix img{
-    height: 50%;
+.contact h1{
+    color: var(--acentclr);
+    text-align: center;
+    width: 100%;
+
 }
 
-.contact .formset .form .form-group{
+.contact p{
+    color: var(--offwhite);
+    text-align: center;
+    width: 100%;
+}
+
+.contact .formset form{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px auto;
+    width: 100%;
+    margin: auto;
+}
+
+.contact .formset form .form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2px;
+    width: 100%;
+    color: var(--offwhite);
+}
+
+.contact .formset form .form-group label{
+    text-align: left;
+    margin: 5px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+}
+
+textarea{
+   width: 100%;
+}
+
+.contact .formset form button{
+width: 101%;
+height: 35px;
+margin-top: 20px;
+background-color: var(--acentclr);
+color: var(--priclr);
+font-size: larger;
+font-weight: 600;
+border-radius: 5px;
+}
+
+
+@media (max-width:576px){
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact .formset{
+        width: 100%;
+    }
+
+    .contact .formset form{
+        width: 80%;
+    }
+
+    .contact .formset form .form-group{
+        width: 100%;
+    }
+
+    .contact .formpix img{
+        display: none;
+    }
+
 }
