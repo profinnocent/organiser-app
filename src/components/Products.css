@@ -9,6 +9,8 @@
 
 .products p{
     text-align: center;
+    color: var(--offwhite);
+
 }
 
 .products .showroom{

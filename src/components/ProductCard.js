@@ -9,7 +9,7 @@ const ProductCard = ({ src, productname, description, price }) => {
       <div className="burgerdetails">
         <h3>{productname}</h3>
         <p>{description} </p>
-        <h2>{price.toLocaleString()}</h2>
+        <h2>{'N ' + price.toLocaleString()}</h2>
         <button>Buy Now</button>
       </div>
     </div>
