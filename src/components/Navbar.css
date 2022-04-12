@@ -65,14 +65,15 @@
   margin-left: 5px;
 }
 
-a:hover {
+.navbar a:hover {
   background-color: var(--acentclr);
-  padding: 0 5px;
+  /* padding: 0 5px; */
   border-radius: 5px;
   border: 1px solid var(--offwhite);
   color: var(--priclr);
 }
 
+/* Media Query ----------------------------------------------- */
 @media (max-width: 576px) {
   .navbar {
     padding: 10px;
@@ -93,7 +94,7 @@ a:hover {
 
   .navbar .right ul li {
     display: inline-flex;
-    padding-top: 15px;
+    padding-top: 5px;
   }
 
   .navbar .right:hover ul {
@@ -107,17 +108,16 @@ a:hover {
     width: 90%;
     height: 100%;
     z-index: 10;
-    /* padding: 0; */
   }
 
   .navbar .right:hover ul li a {
     color: var(--priclr);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     margin-left: 0;
   }
 
-  .navbar .active {
+  /* .navbar .active {
     color: var(--acentclr);
-}
+} */
 }
