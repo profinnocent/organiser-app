@@ -2,6 +2,7 @@ import "./Services.css";
 import heropix1 from "../assets/services2comp512.jpg";
 import heropix2 from "../assets/burger18comp512.jpg";
 import heropix3 from "../assets/services1comp512.jpg";
+import {Link} from 'react-router-dom'
 
 const Services = () => {
  
@@ -33,6 +34,9 @@ const Services = () => {
           <p>Book us to cover your catering needs so you can focus on enjoying your vacations.</p>
           </div>
 
+        </div>
+        <div className="contactbtn">
+        <Link to='/contact'>Contact Us</Link>
         </div>
       </div>
     </div>

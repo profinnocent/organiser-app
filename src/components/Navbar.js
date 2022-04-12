@@ -21,6 +21,8 @@ const Navbar = () => {
                     <li>{ pathname === '/products' ? <Link to="/products" className="active">Products</Link> : <Link to="/products">Products</Link>}</li>
                     <li>{ pathname === '/services' ? <Link to="/services" className="active">Services</Link> : <Link to="/services">Services</Link>}</li>
                     <li>{ pathname === '/contact' ? <Link to="/contact" className="active">Contact</Link> : <Link to="/contact">Contact</Link>}</li>
+                    <li>{ pathname === '/cart' ? <Link to="/cart" className="active">Cart</Link> : <Link to="/cart">Cart</Link>}</li>
+                    <li>{ pathname === '/login' ? <Link to="/login" className="active">Login</Link> : <Link to="/login">Login</Link>}</li>
                 </ul>
             </div>
         </div>

@@ -16,6 +16,8 @@ border-top-right-radius: 5px;
    width: 100%;
    display: flex;
 align-items: center;
+margin-bottom: 40px;
+
 }
 
 .services .hero .herocard{
@@ -32,6 +34,23 @@ align-items: center;
 
 .services .hero h1,p{
     text-align: center;
+}
+
+.services p{
+    color: var(--offwhite);
+}
+
+.services .hero .contactbtn{
+    text-align: center;
+
+}
+
+.services .hero a{
+    text-decoration: none;
+    padding: 3px 40px;
+    background-color: var(--acentclr);
+    color:var(--priclr);
+    border-radius: 25px;
 }
 
 @media (max-width:576px){

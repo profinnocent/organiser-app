@@ -1,8 +1,11 @@
 import "./ProductCard.css";
 
-const ProductCard = ({ src, productname, description, price }) => {
+const ProductCard = (props) => {
+
+  console.log(props);
+  const { id, src, productname, description, price } = props
   return (
-    <div className="productcard">
+    <div className="productcard" key={id}>
       <div className="burgerpix">
         <img src={src} alt="Product Pix" />
       </div>
